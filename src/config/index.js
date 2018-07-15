@@ -4,6 +4,6 @@ export default {
   // "port": 3005,
   // "mongoUrl": "mongodb://localhost:27017/chat-api",
   "port": process.env.PORT,
-  "mongoUrl": process.env.MONGODB_URI,
+  "mongoUrl": "mongodb://yulia:a12345@ds239071.mlab.com:39071/chachatchat",
   "bodyLimit": "100kb"
 }
